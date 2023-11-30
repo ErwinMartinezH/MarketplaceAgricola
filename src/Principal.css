@@ -1,0 +1,53 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+    background-color: #0045c6;
+    color: white;
+    padding: 10px 0;
+    display: flex; /* Establece el contenedor de menú como un contenedor flexible */
+    justify-content: space-between; /* Distribuye los elementos en el contenedor */
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+  
+nav a:first-child {
+    margin-right: 20px; /* Agrega margen a la derecha del primer elemento */
+}
+  
+nav a:last-child {
+    margin-left: 20px; /* Agrega margen a la izquierda del último elemento */
+}
+.publicaciones {
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    display: grid; /* Usar grid para organizar los elementos */
+    grid-template-columns: 1fr; /* Una columna */
+    grid-template-rows: auto; /* Filas de altura automática */
+    gap: 10px; /* Espacio entre los elementos del grid */
+    border: 1px solid black; /* Borde sólido */
+    padding: 10px; /* Padding alrededor del contenido */
+}
+
+/* Estilos para la tabla dentro de publicaciones */
+.publicaciones .tabla {
+    width: 100%; /* La tabla ocupa todo el ancho del contenedor */
+}
+
+.publicaciones table {
+    width: 100%; /* La tabla ocupa todo el ancho de su contenedor */
+    border-collapse: collapse; /* Elimina el espacio entre las celdas */
+    border: none; /* Elimina todos los bordes de la tabla */
+}
+
+.publicaciones th, .publicaciones td {
+    border: none; /* Elimina los bordes de las celdas individuales */
+    padding: 5px; /* Espacio dentro de cada celda */
+    text-align: left; /* Alineación del texto */
+}

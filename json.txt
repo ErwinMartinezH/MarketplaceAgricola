@@ -1,0 +1,15 @@
+[
+  {
+    "image_url": "ruta/de/imagen1.jpg",
+    "title": "Título de la imagen 1",
+    "description": "Descripción de la imagen 1",
+    "price": 19.99
+  },
+  {
+    "image_url": "ruta/de/imagen2.jpg",
+    "title": "Título de la imagen 2",
+    "description": "Descripción de la imagen 2",
+    "price": 24.99
+  },
+  // ... Más elementos
+]

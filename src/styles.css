@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0045c6;
+    color: #fff;
+}
+
+/* Estilos para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0045c6;
+    color: #fff;
+    border: none; /* Quita los bordes de las cabeceras */
+}
+
+td {
+    border: none; /* Quita los bordes de las celdas */
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #0045c6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilos para los enlaces de aplicaciones guardadas */
+.publicaciones-usuario a {
+    text-decoration: none;
+    color: #333;
+}
+
+.publicaciones-usuario a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+/* Estilos para las secciones */
+.informacion-usuario, .publicaciones-usuario {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
